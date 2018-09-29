@@ -8,7 +8,7 @@
 
 
 
-require 'App';
+require '../src/wcs/hello.php';
 
 
 
