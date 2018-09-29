@@ -1,0 +1,20 @@
+{
+    "name": "felix/projet_composer",
+    "description": "Projet quete composer",
+    "authors": [
+        {
+            "name": "Felix Tuffreaud",
+            "email": "felix.tuffreaud@laposte.net"
+        }
+    ],
+    "require": {
+        "ehime/hello-world": "^1.0"
+    },
+    {
+        "autoload": {
+            "psr-4": {
+                "App\\wcs": "src/wcs"
+            }
+        }
+    }
+}
