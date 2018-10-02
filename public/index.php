@@ -6,14 +6,12 @@
  * Time: 13:19
  */
 
-
-
-require '../src/wcs/hello.php';
+require "../vendor/autoload.php";
 
 
 
-$bonjour = new Hello();
-$helloWorld = new \HelloWorld\SayHello();
+$helloWorld = new HelloWorld\SayHello();
+$a = new App\wcs\hello();
+echo $a->talk();
+echo $helloWorld->world();
 
-var_dump($bonjour);
-var_dump($helloWorld);
